@@ -1,0 +1,108 @@
+@font-face
+{
+    font-family: headerFont;
+    src: url('fonts/Nosifer-Regular.ttf');
+}
+@font-face
+{
+    font-family: labelFont;
+    src: url('fonts/HennyPenny-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 1350px 900px;
+}
+
+#content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: appworkspace solid 2px;
+    border-radius: 20px;
+    background-color: #00ffcc;
+    opacity: 0.8;
+    -webkit-box-shadow: rgb(111,111,111) 20px 20px 20px;
+}
+a{
+    margin-left: 50px;
+}
+label{
+    width: 410px;
+    float: left;
+    margin: 10px 20px 10px 20px;
+    font-size: 26px;
+    font-family: labelFont;
+}
+#input{
+    width: 350px;
+    height: 40px;
+    float: left;
+    margin: 10px 20px 10px 20px;
+    padding-left: 10px;
+    font-family: labelFont;
+    border-radius: 10px;
+}
+
+input:focus:valid{
+    border: #006600 solid 2px;
+}
+
+input:focus:invalid{
+    border: #cc0000 solid 2px;
+}
+
+h1{
+    font-family: headerFont;
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#submit{
+    clear: both;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0px;
+}
+#img{
+    margin-left:15px;
+    height:100px;
+    width:100px;
+}
+#img1{
+    margin-left:25px;
+    height:70px;
+    width:70px;
+}
+img{
+    margin-top:15px;
+}
+[name=secure]{
+    width: 175px;
+    margin-left: 155px;
+}
+.blank{
+    height:550px;
+}
+#captcha{
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: labelFont;
+    border-radius: 10px;
+    text-align:center;
+}
+p{
+    font-family: labelFont;
+    text-align: center;
+}
